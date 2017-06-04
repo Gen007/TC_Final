@@ -1,0 +1,45 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+  a{
+    font-family: Helvetica,sans-serif;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+    margin: 10px;
+  }
+
+  /*header*/
+
+  .top{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px seashell;
+  }
+  .logo img{
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .lien-top{
+    display: flex;
+    align-items: center;
+    height: 69px;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  .lien-top a{
+    margin-left: 15px;
+    opacity: 0.9;
+  }
